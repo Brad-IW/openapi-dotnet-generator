@@ -1,0 +1,1 @@
+# openapi-dotnet-generator
