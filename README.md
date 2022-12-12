@@ -17,4 +17,11 @@ The following instructions requires a Windows computer with [Docker](https://doc
 
 ## Test Plan
 
-http://localhost/BIAN-3/BIAN/CurrentAccount/11.0.0/CurrentAccount/currentaccountid/Interest/interestid/Retrieve
+This optional test plan will walk you through setting up the provided Postman collection to test the API stubs.
+
+1. Open your Postman workspace.
+2. Click import and select the provided `OpenAPIGenerator.postman_collection.json` file.
+3. Ensure the selection and get request are checked, then press import.
+4. Open the environment editor and add a new environment.
+5. Add a new key value pair with `server` as the key and the ip address of the device running the container (`localhost` if running from the same machine).
+6. Click on the Get BIAN Test request and hit send. This should return a 200 OK response along with some dummy data.

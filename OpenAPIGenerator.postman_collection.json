@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "4f3248cf-861e-4fb4-80a5-1ab8bd2372ce",
+		"name": "OpenAPIGenerator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24663713"
+	},
+	"item": [
+		{
+			"name": "Get BIAN Test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{server}}/BIAN-3/BIAN/CurrentAccount/11.0.0/CurrentAccount/currentaccountid/Interest/interestid/Retrieve",
+					"protocol": "http",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"BIAN-3",
+						"BIAN",
+						"CurrentAccount",
+						"11.0.0",
+						"CurrentAccount",
+						"currentaccountid",
+						"Interest",
+						"interestid",
+						"Retrieve"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
