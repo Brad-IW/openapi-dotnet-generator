@@ -1,2 +1,2 @@
-gen.bat
+gen/*
 openapi-generator-cli.jar
